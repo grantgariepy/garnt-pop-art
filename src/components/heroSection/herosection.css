@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     background-color: #FFDCA8;
-
+    padding-top: 100px;
 }
 .heroContainer{
     display: flex;
