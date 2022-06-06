@@ -1,0 +1,132 @@
+.infoSection{
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFDCA8;
+}
+
+.infoSectionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoButton{
+    border: black 2px solid;
+    background-color: #FF4D4D;
+    padding: 30px 80px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    letter-spacing: -2px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    transform: rotate(-10deg);
+    margin-top: -100px;
+    cursor: pointer;
+}
+
+
+.leftInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.rightInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-right: 10vw;
+}
+
+.infoArrow{
+    padding-top: 100px;
+    padding-right: 10px;
+}
+
+.infoText{
+    max-width: 25%;
+   
+   padding-top: 250px;
+   margin-left: -150px;
+
+   
+}
+
+.newsLeft{
+    background-color: white;
+    border: 2px solid black;
+    width: 15vw;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    
+}
+
+.newsRight{
+    background-color: white;
+    border: 2px solid black;
+    width: 15vw;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
+
+.newsLeftHeader{
+    background-color: #FFE24C;
+    height: -30px;
+    font-size: 24px;
+    margin-top: -30px;
+    border-radius: 5px 0px 5px 0px;
+}
+.newsLeftHeaderText{
+    background-color: #FFE24C;
+    border-bottom: 1px solid black;
+    border-top: 1px solid #000;
+}
+.newsRightHeader{
+    height: -30px;
+    font-size: 24px;
+    margin-top: -30px;
+    border-radius: 5px 0px 5px 0px;
+}
+.newsRightHeaderText{
+    background-color: #6AACFB;
+    border-bottom: 1px solid black;
+    border-top: 1px solid #000;
+}
+
+.newsLeftBody{
+    font-size: 24px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.newsRightBody{
+    font-size: 24px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.clockImg{
+    font-size: 20px;
+    
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: -45px;
+}
+
+.newsLeftBodyText{
+    margin-top: -30px;
+}
+
+.newsRightBodyText{
+    margin-top: -30px;
+}
+

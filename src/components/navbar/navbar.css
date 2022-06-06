@@ -28,6 +28,7 @@ body{
     color: white;
     padding: 20px 40px 0px 40px;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .navButton{
@@ -37,4 +38,6 @@ body{
     background-color: #FFDCA8;
     font-weight: 700;
     font-size: 24px;
+    cursor: pointer;
+    letter-spacing: -2px;
 }
