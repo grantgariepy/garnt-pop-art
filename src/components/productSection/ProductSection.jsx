@@ -12,7 +12,7 @@ import syn7 from "../../images/syn7.png"
 
 const ProductSection = () => {
   return (
-    <div className="productSection">
+    <div className="productSection" id="product">
         <div className="productSectionContainer">
             <div className="productTitle">
                <h1 className="productHeader">PO-28 robot</h1>

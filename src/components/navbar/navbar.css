@@ -5,11 +5,14 @@ body{
     padding: 0;
 }
 .navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
     height: 90px;
-    display: flex;
-    justify-content: center;
     font-family: 'Bebas Neue', cursive;
     background-color: #FFDCA8;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -19,6 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .logo{
@@ -40,4 +44,10 @@ body{
     font-size: 24px;
     cursor: pointer;
     letter-spacing: -2px;
+
+    
+}
+.navButton > .active{
+    background-color: aqua;
+    z-index: 999;
 }

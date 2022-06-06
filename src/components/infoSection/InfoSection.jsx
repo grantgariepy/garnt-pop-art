@@ -2,6 +2,7 @@ import './infosection.css'
 import arrow from '../../images/Arrow.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faClock } from '@fortawesome/free-solid-svg-icons'
+import Link from 'react-scroll/modules/components/Link'
 
 const InfoSection = () => {
   return (
@@ -11,7 +12,7 @@ const InfoSection = () => {
             
             <div className="leftInfo">
                 <img src={arrow} alt="" className="infoArrow" />
-                <button className="infoButton">BUY NOW</button>
+                <Link to="product" spy={true} smooth={true} duration={500}><button className="infoButton">BUY NOW</button></Link>
                 <p className="infoText">live synthesizer and sequencer, with parameter locks, 
                 glide control and punch-in effects. pocket operators are small, ultra portable music devices. 
                 each model can be used individually, together or with other compatible gear.</p>

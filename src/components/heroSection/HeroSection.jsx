@@ -5,7 +5,7 @@ import "./herosection.css"
 const HeroSection = () => {
   return (
     <div className="hero">
-        <div className="heroContainer">
+        <div className="heroContainer" id="hero">
             <div className="heroText">A PORTABLE SYNTHESIZER THAT FITS IN YOUR POCKET. REALLY</div>
             <FontAwesomeIcon icon={faCompactDisc} className="heroImg" />
         </div>

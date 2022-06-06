@@ -1,0 +1,28 @@
+.peopleSection{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #FFDCA8;
+    margin-top: -25px;
+    
+}
+
+.peopleSectionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.peopleTitle{
+    font-size: 40px;
+    margin-bottom: -30px;
+}
+.peopleDesc{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.peopleDesc>p>a{
+    text-decoration: none;
+}
