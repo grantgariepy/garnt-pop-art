@@ -22,6 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #FFDCA8;
     
 }
 
@@ -51,3 +52,54 @@ body{
     background-color: aqua;
     z-index: 999;
 }
+
+@media only screen and (max-width: 1240px) {
+    .navContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+        width: fit-content;
+    }
+    /* .navItems {
+      display: flex;
+      flex-direction: row;
+      align-items: left ;
+      margin-left: 500px;
+      background-color: aqua;
+      position: absolute;
+      justify-content: center;
+
+    } */
+  }
+@media only screen and (max-width: 768px) {
+    .navContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        width: fit-content;
+    }
+  }
+@media only screen and (max-width: 425px) {
+    .navContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+        position: sticky;
+    }
+    .navItems{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-right: 10px;
+        
+    }
+  }
