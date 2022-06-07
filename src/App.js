@@ -11,10 +11,10 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
-      {/* <InfoSection />
+      <InfoSection />
       <ProductSection />
       <PeopleSection />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

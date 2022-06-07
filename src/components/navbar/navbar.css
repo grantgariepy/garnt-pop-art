@@ -103,3 +103,33 @@ body{
         
     }
   }
+@media only screen and (max-width: 425px) {
+    
+    .navItems{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-right: 30px;
+        
+    }
+  }
+@media only screen and (max-width: 320px) {
+    
+    .navItems{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding-right: 10px;
+        margin-right: -10px;
+        
+        
+    }
+    .navButton{
+        
+        padding: 0;
+        margin: 10px;
+        
+    }
+  }
